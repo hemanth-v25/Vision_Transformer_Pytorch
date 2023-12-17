@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 from einops.layers.torch import Rearrange
 from einops import repeat
-# party id 57861845
 
 class Attention(nn.Module):
     def __init__(self, embed_dim, num_heads, dropout=0.0):
